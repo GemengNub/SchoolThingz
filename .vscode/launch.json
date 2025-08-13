@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "com.praccode.hello",
+      "projectName": "praccode_school"
+    },
+    {
+      "type": "java",
+      "name": "MathFunction",
+      "request": "launch",
+      "mainClass": "school.activity.MathFunction",
+      "projectName": "praccode_school"
+    },
+    {
+      "type": "java",
+      "name": "AnArrayList",
+      "request": "launch",
+      "mainClass": "com.praccode.AnArrayList",
+      "projectName": "praccode_school"
+    },
+    {
+      "type": "java",
+      "name": "Writer",
+      "request": "launch",
+      "mainClass": "com.praccode.Writer",
+      "projectName": "praccode_school"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Samiel/Documents/TestProjects/praccode_school",
+      "program": "c:/Users/Samiel/Documents/TestProjects/praccode_school/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
