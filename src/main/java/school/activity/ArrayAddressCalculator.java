@@ -73,9 +73,9 @@ public class ArrayAddressCalculator {
         int cols = getPositiveInteger("Enter number of columns: ");
         
         // Get element size and starting address
-        System.out.println("\nCommon data type sizes: int=4, long=8, char=2, short=2, double=8, float=4 bytes");
-        int elementSize = getPositiveInteger("Enter size of each element in bytes : ");
-        long startingAddress = getPositiveLong("Enter starting address (in decimal): ");
+        System.out.println("\nCommon data type sizes: int=4, long=8, char=1, short=2, double=8, float=4 bytes");
+        int elementSize = getPositiveInteger("Enter size of elements in bytes : ");
+        long startingAddress = getPositiveLong("Enter starting address : ");
         
         // Display array structure for reference
         display2DArrayStructure(rows, cols);
@@ -98,7 +98,6 @@ public class ArrayAddressCalculator {
         System.out.println("Element size: " + elementSize + " bytes");
         System.out.println("Starting address: " + startingAddress);
         System.out.println("Calculated address: " + address);
-        System.out.println("Address in hexadecimal: 0x" + Long.toHexString(address).toUpperCase());
     }
     
     /**
@@ -113,7 +112,7 @@ public class ArrayAddressCalculator {
         int cols = getPositiveInteger("Enter number of columns: ");
         
         // Get element size and starting address
-        System.out.println("\nCommon data type sizes: int=4, long=8, char=2, short=2, double=8, float=4 bytes");
+        System.out.println("\nCommon data type sizes: int=4, long=8, char=1, short=2, double=8, float=4 bytes");
         int elementSize = getPositiveInteger("Enter size of each element in bytes (applies to ALL elements): ");
         long startingAddress = getPositiveLong("Enter starting address (in decimal): ");
         
@@ -137,7 +136,7 @@ public class ArrayAddressCalculator {
         System.out.println("Element size: " + elementSize + " bytes");
         System.out.println("Starting address: " + startingAddress);
         System.out.println("Calculated address: " + address);
-        System.out.println("Address in hexadecimal: 0x" + Long.toHexString(address).toUpperCase());
+
     }
     
     /**
